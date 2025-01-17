@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/output.css">
     <title>AllOrNothing</title>
 </head>
 <body class="bg-[#0D0D0D] uppercase">
     <!-- Header section -->
     <header class="">
-        <nav class="xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto px-5 h-[60px] my-2  bg-[#CCCCCC] flex justify-between items-center rounded-lg">
+        <nav class="sm360:w-[320px] xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto px-5 h-[60px] my-2  bg-[#CCCCCC] flex justify-between items-center rounded-lg">
             <ul class="flex items-center space-x-8 font-medium">
                 <li class="bg-[#0D0D0D] px-2 rounded-lg py-2"><a href=""><img src="./assets/images/header-logo.png" alt=""></a></li>
-                <li class="xs:hidden sm:hidden lg:inline-block"><a href="#">Men</a></li>
-                <li class="xs:hidden sm:hidden lg:inline-block""><a href="#">Women</a></li>
-                <li class="xs:hidden sm:hidden lg:inline-block""><a href="#">Sale</a></li>
-                <li class="xs:hidden sm:hidden lg:inline-block""><a href="#">Children</a></li>
-                <li class="xs:hidden sm:hidden lg:inline-block""><a href="#">Collection</a></li>
+                <li class="sm360:hidden xs:hidden sm:hidden lg:inline-block"><a href="#">Men</a></li>
+                <li class="sm360:hidden xs:hidden sm:hidden lg:inline-block""><a href="#">Women</a></li>
+                <li class="sm360:hidden xs:hidden sm:hidden lg:inline-block""><a href="#">Sale</a></li>
+                <li class="sm360:hidden xs:hidden sm:hidden lg:inline-block""><a href="#">Children</a></li>
+                <li class="sm360:hidden xs:hidden sm:hidden lg:inline-block""><a href="#">Collection</a></li>
             </ul>
             <ul class="flex items-center space-x-8 font-medium">
-                <li class="xs:hidden sm:hidden lg:inline-block""><a href="#">English <i class="fa-solid fa-chevron-down"></i></a></li>
-                <li class="xs:hidden sm:hidden lg:inline-block""><a href="#"><i class="fa-regular fa-user"></i></a></li>
-                <li class="xs:hidden sm:hidden lg:inline-block""><a href="#"><i class="fa-regular fa-heart"></i></a></li>
-                <li class="xs:hidden sm:hidden lg:inline-block""><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
-                <li class="xs:block sm:block text-[25px] lg:hidden hidden"><i class="fa-solid fa-bars"></i></li>
+                <li class="sm360:hidden xs:hidden sm:hidden lg:inline-block""><a href="#">English <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li class="sm360:hidden xs:hidden sm:hidden lg:inline-block""><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                <li class="sm360:hidden xs:hidden sm:hidden lg:inline-block""><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                <li class="sm360:hidden xs:hidden sm:hidden lg:inline-block""><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <li class="sm360:block xs:block sm:block text-[25px] lg:hidden hidden"><i class="fa-solid fa-bars"></i></li>
             </ul>
         </nav>
     </header>
@@ -34,16 +37,16 @@
     <main>
         <!-- Home section -->
         <section class="home">
-            <div class="home-content xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto px-5  bg-[#CCCCCC] pt-5  my-10 flex xs:flex-col sm:flex-row items-center rounded-2xl">
-                <div class="home-left ">
-                    <h1 class="xs:text-3xl sm:text-5xl md:text-6xl text-7xl">Chikago Wears For men</h1>
-                    <div class="main-btn xs:mb-[20px] xs:mx-auto py-[7px] mt-5 rounded-3xl  font-medium border-2 border-gray-950 bg-[#E2AC8B] flex justify-center items-center gap-2 w-[180px]">
-                        <a href="#" class="btn ">view now all</a>
-                        <img  src="./assets/icons/right-arrow.png" alt="">
+            <div class="sm360:w-[320px] sm360:py-3 sm:py-5 xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto px-5  bg-[#CCCCCC] pt-5  my-10 flex xs:flex-col sm:flex-row items-center rounded-2xl">
+                <div class="sm360:w-[100%] md:w-[50%]">
+                    <h1 class="sm360:w-[100%] sm360:text-center sm360:mx-auto sm360:text-xl  sm:text-3xl  md:w-[100%] md:text-5xl md:text-start md:mx-0 text-7xl font-roboto font-bold">Chikago Wears For men</h1>
+                    <div class="sm360:py-[3px] sm360:w-[150px] sm360:mx-auto sm360:mt-2   sm:w-[180px] sm:py-[5px]    md:mx-0    lg:py-[7px] lg:mt-5 rounded-3xl  font-medium border-2 border-gray-950 bg-[#E2AC8B] flex justify-center items-center gap-2 ">
+                        <a href="#" class="sm360:text-[13px] sm:text-[15px] md:text-[16px]">view now all</a>
+                        <img class="sm360:w-[15px] sm:w-[17px]"  src="./assets/icons/right-arrow.png" alt="">
                     </div>
                 </div>
-                <div class="home-right-img ">
-                    <img class="xs:w-[350px]" src="./assets/images/home-img.png" alt="">
+                <div class="sm360:hidden md:inline-block md:w-[40%]">
+                    <img class="xs:w-[350px] " src="./assets/images/home-img.png" alt="">
                 </div>
             </div>
         </section>
@@ -51,54 +54,54 @@
 
         <!-- All menu section -->
         <section class="all-menu">
-            <div class="all-menu-content xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto mb-20">
+            <div class="sm360:w-[320px] xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto mb-20">
                 <div class="title-box flex items-center justify-between ">
-                    <p class="title sm:text-[14px] text-[#999999]">All menu</p>
-                    <span class="title-line inline-block xs:w-[80%] sm:w-[86%] w-[92%] sm:h-[1px] h-[2px] bg-[#999999] "></span>
+                    <p class="sm360:text-[13px] text-[#999999]">All menu</p>
+                    <span class="sm360:w-[76%] sm360:h-[1px] inline-block w-[92%] h-[2px] bg-[#999999] "></span>
                 </div>
-                <div class="menus flex xs:flex-col xs:gap-[10px] justify-between pt-4">
-                    <div class="menus-left xs:w-[440px] w-[563px] space-y-2">
-                        <div class="caps bg-[#CCCCCC] p-[45px] h-[230px] rounded-[20px] relative overflow-hidden">
+                <div class="flex sm360:flex-col sm360:gap-2 sm360:items-center xs:flex-col xs:gap-[10px] sm:items-center justify-between pt-4 md:flex-row">
+                    <div class="sm360:w-[90%] xs:w-[440px] md:w-[563px] space-y-2">
+                        <div class="sm360:p-[25px] bg-[#CCCCCC] p-[45px] md:h-[200px] rounded-[20px] relative overflow-hidden">
                             <div class="card-name">
-                                <h1 class="xs:text-[32px] text-[48px] font-medium xs:pb-1 pb-4">Caps</h1>
-                                <div class="main-btn xs:py-1 xs:px-1 py-[7px] xs:w-[110px] w-[140px] xs:mt-0 mt-2 rounded-3xl  font-medium bg-[#F7926E] flex justify-center items-center gap-2">
-                                    <a href="#" class="btn xs:text-[14px]">See all</a>
-                                    <img class="xs:w-[20px]" src="./assets/icons/right-arrow.png" alt="">
+                                <h1 class="sm360:text-[24px] xs:text-[32px] text-[48px] font-medium">Caps</h1>
+                                <div class="sm360:w-[90px] sm360:py-1 sm360:mt-2   rounded-3xl  font-medium bg-[#F7926E] flex justify-center items-center gap-2">
+                                    <a href="#" class="sm360:text-[14px]">See all</a>
+                                    <img class="sm360:hidden" src="./assets/icons/right-arrow.png" alt="">
                                 </div>
                             </div>
-                            <img class="absolute xs:w-[250px] w-[320px] top-[40px] left-[200px]" src="./assets/images/caps2.jpg" alt="">
+                            <img class="absolute sm360:hidden xs:w-[250px] xs:top-[30px] xs:left-[150px] md:w-[270px] md:top-[40px] md:left-[100px] lg:w-[260px] lg:top-[40px] lg:left-[160px] xl:left-[220px]" src="./assets/images/caps2.jpg" alt="">
                         </div>
-                        <div class="jackets bg-[#CCCCCC] p-[30px] xs:h-[230px] h-[320px] rounded-[20px] relative overflow-hidden">
+                        <div class="sm360:p-[25px] bg-[#CCCCCC] p-[30px] xs:h-[230px] md:h-[300px] rounded-[20px] relative overflow-hidden">
                             <div class="card-name">
-                                <h1 class="xs:text-[32px] xs:pb-1 text-[48px] font-medium pb-4">Jackets</h1>
-                                <div class="main-btn xs:py-1 xs:px-1 xs:w-[110px] xs:mt-0 py-[7px] mt-2 rounded-3xl  font-medium bg-[#F1C25F] flex justify-center items-center gap-2 w-[140px]">
-                                    <a href="#" class="btn xs:text-[14px]">See all</a>
-                                    <img src="./assets/icons/right-arrow.png" alt="">
+                                <h1 class="sm360:text-[24px] xs:text-[32px] text-[48px] font-medium">Jackets</h1>
+                                <div class="sm360:w-[90px] sm360:py-1 sm360:mt-2 rounded-3xl  font-medium bg-[#F1C25F] flex justify-center items-center gap-2 w-[140px]">
+                                    <a href="#" class="sm360:text-[14px]">See all</a>
+                                    <img class="sm360:hidden" src="./assets/icons/right-arrow.png" alt="">
                                 </div>
                             </div>
-                            <img class="absolute xs:w-[160px] w-[210px] xs:top-[20px] top-[35px] xs:left-[230px] left-[300px]" src="./assets/images/jackets.png" alt="">
+                            <img class="absolute sm360:hidden xs:w-[160px]  xs:top-[20px] xs:left-[230px] md:w-[180px] md:top-[45px]  md:left-[160px] lg:w-[180px] lg:top-[45px] lg:left-[220px] xl:left-[300px]" src="./assets/images/jackets.png" alt="">
                         </div>
                     </div>
-                    <div class="menus-right xs:w-[440px] w-[563px] space-y-2">
-                        <div class="caps bg-[#CCCCCC] p-[30px] xs:h-[230px] h-[320px] rounded-[20px] relative overflow-hidden">
+                    <div class="sm360:w-[90%] xs:w-[440px] md:w-[563px] space-y-2">
+                        <div class="sm360:p-[25px] bg-[#CCCCCC] p-[30px] xs:h-[230px] md:h-[300px] rounded-[20px] relative overflow-hidden">
                             <div class="card-name">
-                                <h1 class="xs:text-[32px] xs:pb-1 text-[48px] font-medium pb-4">trousers</h1>
-                                <div class="main-btn xs:py-1 xs:px-1 xs:w-[110px] xs:mt-0 py-[7px] mt-2 rounded-3xl  font-medium bg-[#93B5E3] flex justify-center items-center gap-2 w-[140px]">
-                                    <a href="#" class="btn xs:text-[14px]">See all</a>
-                                    <img src="./assets/icons/right-arrow.png" alt="">
+                                <h1 class="sm360:text-[24px] xs:text-[32px] text-[48px] font-medium">Treousers</h1>
+                                <div class="sm360:w-[90px] sm360:py-1 sm360:mt-2 rounded-3xl  font-medium bg-[#93B5E3] flex justify-center items-center gap-2 w-[140px]">
+                                    <a href="#" class="sm360:text-[14px]">See all</a>
+                                    <img class="sm360:hidden" src="./assets/icons/right-arrow.png" alt="">
                                 </div>
                             </div>
-                            <img class="absolute xs:w-[120px] w-[170px] xs:left-[240px] top-[20px] left-[320px]" src="./assets/images/trousers.png" alt="">
+                            <img class="absolute sm360:hidden xs:w-[120px] xs:top-[20px] xs:left-[240px] md:w-[130px] md:top-[50px] md:left-[200px] lg:w-[150px] lg:top-[30px] lg:left-[220px] xl:left-[300px]" src="./assets/images/trousers.png" alt="">
                         </div>
-                        <div class="caps bg-[#CCCCCC] p-[30px] h-[230px] rounded-[20px] relative overflow-hidden">
+                        <div class="sm360:p-[25px] bg-[#CCCCCC] p-[30px] md:h-[200px] rounded-[20px] relative overflow-hidden">
                             <div class="card-name">
-                                <h1 class="xs:text-[32px] xs:pb-1 text-[48px] font-medium pb-4">SNAKERS</h1>
-                                <div class="main-btn xs:py-1 xs:px-1 xs:w-[110px] xs:mt-0 py-[7px] mt-2 rounded-3xl  font-medium bg-[#B85BF0] flex justify-center items-center gap-2 w-[140px]">
-                                    <a href="#" class="btn xs:text-[14px]">See all</a>
-                                    <img src="./assets/icons/right-arrow.png" alt="">
+                                <h1 class="sm360:text-[24px] xs:text-[32px] text-[48px] font-medium">Sneakers</h1>
+                                <div class="sm360:w-[90px] sm360:py-1 sm360:mt-2 rounded-3xl  font-medium bg-[#B85BF0] flex justify-center items-center gap-2 w-[140px]">
+                                    <a href="#" class="sm360:text-[14px]">See all</a>
+                                    <img class="sm360:hidden" src="./assets/icons/right-arrow.png" alt="">
                                 </div>
                             </div>
-                            <img class="absolute xs:w-[160px] xs:top-[40px] xs:left-[220px] w-[200px] top-[30px] left-[300px]" src="./assets/images/snakers.png" alt="">
+                            <img class="absolute sm360:hidden xs:w-[130px] xs:top-[15px] xs:left-[230px] md:w-[170px] md:top-[30px] md:left-[180px] lg:w-[170px] lg:top-[30px] lg:left-[220px] xl:left-[300px]" src="./assets/images/snakers.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -107,21 +110,21 @@
         <!-- All menu section -->
 
         <!-- News product section -->
-        <section class="new-products">
+        <section class="new-products border-2 border-red-400">
             <div class="news-products-content xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto mb-16">
                 <div class="title-box flex items-center justify-between ">
-                    <p class="title xs:text-[14px] text-[#999999]">News product</p>
-                    <span class="title-line inline-block xs:w-[75%] xs:h-[1px]  w-[88%] h-[2px] bg-[#999999]"></span>
+                    <p class="sm360:text-[13px] text-[#999999]">News product</p>
+                    <span class="sm360:w-[70%] sm360:h-[1px] inline-block md:w-[80%] lg:w-[88%] h-[2px] bg-[#999999]"></span>
                 </div>
-                <div class="products flex xs:flex-col xs:gap-8 md:flex-row justify-between pt-4">
-                    <div class="products-title xs:w-[100%] w-[35%]">
-                        <h1 class="xs:text-[32px] xs:text-center text-[52px] font-[500] text-[#FAFAFA]">We have new  products</h1>
-                        <div class="main-btn xs:mx-auto py-[7px] mt-2 rounded-3xl  font-medium bg-[#F1C25F] flex justify-center items-center gap-2 w-[140px]">
+                <div class="border-2 border-blue-400 flex justify-between pt-4 md:flex-col md:items-center md:gap-10 lg:flex-row">
+                    <div class="products-title w-[35%]">
+                        <h1 class="md:text-[36px] md:text-center lg:text-start  lg:text-[52px] font-[500] text-[#FAFAFA]">We have new  products</h1>
+                        <div class="md:mx-auto lg:mx-0 py-[7px] mt-2 rounded-3xl  font-medium bg-[#F1C25F] flex justify-center items-center gap-2 w-[140px]">
                             <a href="#" class="btn ">See all</a>
                             <img src="./assets/icons/right-arrow.png" alt="">
                         </div>
                     </div>
-                    <div class="products-crads grid xs:grid-cols-2 xs:grid-rows-4 grid-cols-6 grid-rows-3 gap-2 w-[65%]">
+                    <div class="products-crads grid grid-cols-6 grid-rows-3 gap-2 w-[65%]">
                         <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative h-[120px] col-span-2">
                             <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-50" src="./assets/images/card-1-img.jpg" alt="">
                         </div>
@@ -156,8 +159,8 @@
         <section>
             <div class="xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto mb-20">
                 <div class="title-box flex items-center justify-between ">
-                    <p class="title xs:text-[14px] text-[#999999]">News product</p>
-                    <span class="title-line inline-block xs:w-[72%] xs:h-[1px] w-[88%] h-[2px] bg-[#999999]"></span>
+                    <p class="sm360:text-[13px] xs:text-[14px] text-[#999999]">News product</p>
+                    <span class="sm360:w-[70%] sm360:h-[1px] inline-block xs:w-[72%] xs:h-[1px] w-[88%] h-[2px] bg-[#999999]"></span>
                 </div>
                 <div class="products-cards grid grid-cols-2 xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 grid-rows-2 gap-2 pt-4">
                     <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative  overflow-hidden">
@@ -239,8 +242,8 @@
         <section class="new-products">
             <div class="news-products-content xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto mb-16">
                 <div class="title-box flex items-center justify-between ">
-                    <p class="title xs:text-[16px] text-[#999999]">News product</p>
-                    <span class="title-line inline-block xs:w-[80%] xs:h-[1px] w-[88%] h-[2px] bg-[#999999] "></span>
+                    <p class="sm360:text-[13px] xs:text-[16px] text-[#999999]">News product</p>
+                    <span class="sm360:w-[70%] sm360:h-[1px] inline-block xs:w-[80%] xs:h-[1px] w-[88%] h-[2px] bg-[#999999] "></span>
                 </div>
                 <div class="products flex xs:flex-col xs:gap-8 md:flex-row justify-between pt-4">
                     <div class="products-title xs:w-[100%]  md:w-[35%]">
@@ -251,7 +254,7 @@
                         </div>
                     </div>
                     <div class="products-crads grid xs:grid-cols-1 md:grid-cols-6 md:grid-rows-3 gap-2 xs:mx-auto sm:w-[72%] md:w-[65%]">
-                        <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden md:h-[120px] md:col-span-2 lg:col-span-1">
+                        <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden xs:w-[300px] md:h-[120px] md:col-span-2 lg:col-span-1">
                             <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-50" src="./assets/images/brand-1.png" alt="">
                         </div>
                         <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden xs:h-[120px] md:col-span-2">
@@ -285,8 +288,8 @@
         <section>
             <div class="xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto mb-20">
                 <div class="title-box flex items-center justify-between ">
-                    <p class="title xs:text-[14px] text-[#999999]">acessuars</p>
-                    <span class="title-line inline-block xs:w-[85%] xs:h-[1px] w-[92%] h-[2px] bg-[#999999] "></span>
+                    <p class="sm360:text-[13px] xs:text-[14px] text-[#999999]">acessuars</p>
+                    <span class="sm360:w-[76%] sm360:h-[1px] inline-block xs:w-[85%] xs:h-[1px] w-[92%] h-[2px] bg-[#999999] "></span>
                 </div>
                 <div class="products-cards grid xs:grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 pt-4">
                     <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative  overflow-hidden">
