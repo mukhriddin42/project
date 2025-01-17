@@ -167,12 +167,12 @@
 
         <!-- News product section 2 -->
         <section>
-            <div class="xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto mb-20">
-                <div class="title-box flex items-center justify-between ">
+            <div class="sm360:w-[320px] xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto mb-20">
+                <div class=" flex items-center justify-between ">
                     <p class="sm360:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] font-medium text-[#999999]">News product</p>
-                    <span class="sm360:w-[76%] sm360:h-[1px] sm:w-[87%] lg:w-[89%] xl:w-[91%] inline-block bg-[#999999] "></span>
+                    <span class="sm360:w-[65%] sm360:h-[1px] sm:w-[80%] lg:w-[82%] xl:w-[85%] inline-block bg-[#999999] "></span>
                 </div>
-                <div class="products-cards grid grid-cols-2 xs:grid-cols-1 sm:grid-cols-3 md:grid-cols-4 grid-rows-2 gap-2 pt-4">
+                <div class="grid sm360:grid-cols-1 sm360:gap-3  xs:grid-cols-2  sm:grid-cols-3 sm:gap-2  lg:grid-cols-4 lg:gap-3  pt-5">
                     <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative  overflow-hidden">
                         <h3 class="card-status bg-red-500 font-medium absolute top-0 left-0 py-0.5 px-4 rounded-br-[20px] text-white">-30%</h3>
                         <i class="fa-regular fa-heart absolute right-5"></i>
@@ -250,45 +250,55 @@
 
         <!-- News product section 3 -->
         <section class="new-products">
-            <div class="news-products-content xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto mb-16">
-                <div class="title-box flex items-center justify-between ">
+            <div class="sm360:w-[320px] xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto mb-16">
+                <div class=" flex items-center justify-between ">
                     <p class="sm360:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] font-medium text-[#999999]">By brand</p>
                     <span class="sm360:w-[76%] sm360:h-[1px] sm:w-[87%] lg:w-[89%] xl:w-[91%] inline-block bg-[#999999] "></span>
                 </div>
-                <div class="products flex xs:flex-col xs:gap-8 md:flex-row justify-between pt-4">
-                    <div class="products-title xs:w-[100%]  md:w-[35%]">
-                        <h1 class="xs:text-[32px] xs:text-center md:text-start md:text-[40px] lg:text-[52px] font-[500] text-[#FAFAFA]">selection by brands</h1>
-                        <div class="main-btn xs:mx-auto md:mx-0 py-[7px] mt-2 rounded-3xl  font-medium bg-[#F1C25F] flex justify-center items-center gap-2 w-[140px]">
+                <div class="flex sm360:flex-col sm360:items-center sm360:gap-5  lg:flex-row lg:items-start pt-5">
+                    <div class="sm360:w-[100%] sm360:text-center lg:text-start">
+                        <h1 class="sm360:text-[32px] font-[500] text-[#FAFAFA]">selection by brands</h1>
+                        <div class="sm360:w-[140px] sm360:py-2 sm360:mt-4 sm360:mx-auto lg:mx-0  rounded-3xl font-medium bg-[#F1C25F] flex justify-center items-center gap-2">
                             <a href="#" class="btn ">By brand</a>
                             <img src="./assets/icons/right-arrow.png" alt="">
                         </div>
                     </div>
-                    <div class="products-crads grid xs:grid-cols-1 md:grid-cols-6 md:grid-rows-3 gap-2 xs:mx-auto sm:w-[72%] md:w-[65%]">
-                        <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden xs:w-[300px] md:h-[120px] md:col-span-2 lg:col-span-1">
-                            <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-50" src="./assets/images/brand-1.png" alt="">
+                    <div class="flex sm360:flex-col sm360:gap-2  md:flex-row">
+                        <div class="grid sm360:grid-cols-[100px_100px_100px] sm360:grid-rows-[100px_100px_100px] sm360:gap-2
+                                         xs:grid-cols-[120px_120px_120px] xs:grid-rows-[120px_120px_120px]
+                                         sm:grid-cols-[140px_140px_140px] sm:grid-rows-[140px_140px_140px]
+                                         md:grid-cols-[100px_100px_100px] md:grid-rows-[100px_100px_100px]">
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-50" src="./assets/images/brand-1.png" alt="">
+                            </div>
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden col-span-2">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-105" src="./assets/images/brand-2.png" alt="">
+                            </div>
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden row-span-2">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-[0.36]" src="./assets/images/brand-5.png" alt="">
+                            </div>
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden col-span-2 row-span-2">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-100" src="./assets/images/brand-6.png" alt="">
+                            </div>
                         </div>
-                        <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden xs:h-[120px] md:col-span-2">
-                            <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-105" src="./assets/images/brand-2.png" alt="">
+                        <div class="grid sm360:grid-cols-[100px_100px_100px] sm360:grid-rows-[100px_100px_100px] sm360:gap-2
+                                         xs:grid-cols-[120px_120px_120px] xs:grid-rows-[120px_120px_120px]
+                                         sm:grid-cols-[140px_140px_140px] sm:grid-rows-[140px_140px_140px]
+                                         md:grid-cols-[100px_100px_100px] md:grid-rows-[100px_100px_100px]">
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden col-span-2 row-span-2">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-[0.65]" src="./assets/images/brand-3-1.png" alt="">
+                            </div>
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden row-span-2">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xs:scale-[0.25] scale-75" src="./assets/images/brand-4.png" alt="">
+                            </div>
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden col-span-2">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-105" src="./assets/images/brand-7.png" alt="">
+                            </div>
+                            <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden">
+                                <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-75" src="./assets/images/brand-8.png" alt="">
+                            </div>
                         </div>
-                        <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden md:col-span-2 lg:row-span-2">
-                            <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-[0.36]" src="./assets/images/brand-3-1.png" alt="">
-                        </div>
-                        <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden md:col-span-2 lg:col-span-1 lg:row-span-2">
-                            <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-100" src="./assets/images/brand-4.png" alt="">
-                        </div>
-                        <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden md:col-span-2 lg:col-span-1 lg:row-span-2">
-                            <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-[0.65]" src="./assets/images/brand-5.png" alt="">
-                        </div>
-                        <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden md:col-span-2 lg:row-span-2">
-                            <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 xs:scale-[0.25] scale-75" src="./assets/images/brand-6.png" alt="">
-                        </div>
-                        <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden xs:h-[120px] md:col-span-2">
-                            <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-105" src="./assets/images/brand-7.png" alt="">
-                        </div>
-                        <div class=" rounded-[15px] p-3 bg-[#EBEBEB] relative overflow-hidden xs:h-[120px] md:col-span-2 lg:col-span-1">
-                            <img class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 scale-75" src="./assets/images/brand-8.png" alt="">
-                        </div>
-                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -296,7 +306,7 @@
 
         <!-- Acessuars section-->
         <section>
-            <div class="xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto mb-20">
+            <div class="sm360:w-[320px] xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto mb-20">
                 <div class="title-box flex items-center justify-between ">
                     <p class="sm360:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] font-medium text-[#999999]">Accesuars</p>
                     <span class="sm360:w-[76%] sm360:h-[1px] sm:w-[87%] lg:w-[89%] xl:w-[91%] inline-block bg-[#999999] "></span>
@@ -343,36 +353,36 @@
         <!-- Acessuars section -->
 
         <!-- Zoodpay  -->
-        <section class="zoodpay pb-2">
-            <div class="zoodpay-content xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px]  mx-auto rounded-[20px] px-10 pt-[40px] pb-[90px] bg-[#6EAEE3] relative overflow-hidden">
+        <section class="zoodpay pb-3">
+            <div class="sm360:w-[320px] xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px]  mx-auto rounded-[20px] sm360:px-6 md:px-10 pt-[40px] sm360:pb-10 md:pb-[90px] bg-[#6EAEE3] relative overflow-hidden">
                 <div class="logo-box flex items-center gap-1">
                     <img class="w-[48px]" src="./assets/images/zood-logo.png" alt="">
                     <h2 class="text-[40px] text-white font-medium">ood pay</h2>
                 </div>
                 <div class="title">
                     <div class="title-top flex items-center gap-2">
-                        <h1 class="text-[64px] font-medium leading-none">Bilan</h1>
-                        <div class="discount bg-[#F91B1B] px-7 py-2 flex items-center gap-5 rounded-[30px]">
-                            <p class="text-[20px] text-white">20%</p>
+                        <h1 class="sm360:text-[32px] md:text-[64px] font-medium leading-none">Bilan</h1>
+                        <div class="discount bg-[#F91B1B] sm360:px-3 sm360:py-1 md:px-7 md:py-2 flex items-center gap-5 rounded-[30px]">
+                            <p class="sm360:text-[16px] md:text-[20px] text-white">20%</p>
                             <img class="" src="./assets/icons/right-arrow-white.png" alt="">
                         </div>
                     </div>
-                    <h1 class="text-[64px] font-medium leading-none">chegirma</h1>
+                    <h1 class="sm360:text-[32px] md:text-[64px] font-medium leading-none">chegirma</h1>
                 </div>
-                <img class="absolute xs:hidden md:inline-block md:right-6 w-[250px] top-[20px] right-[200px]" src="./assets/images/sneakers-hand.jpg" alt="">
+                <img class="absolute sm360:hidden xs:hidden md:inline-block md:right-6 w-[250px] top-[20px] right-[200px]" src="./assets/images/sneakers-hand.jpg" alt="">
             </div>
         </section>
         <!-- Zoodpay  -->
 
-        <div class="all-nothing xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px]  mx-auto rounded-[20px] bg-[#262626] text-white px-10 pt-8 pb-16 mb-8 flex xs:items-start lg:items-end xs:flex-col sm:flex-col lg:flex-row xs:gap-8 gap-28 items-end">
+        <div class="sm360:w-[320px] xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px]  mx-auto rounded-[20px] bg-[#262626] text-white px-10 pt-8 pb-16 mb-8 flex xs:items-start lg:items-end sm360:flex-col sm360:items-start sm360:gap-10 xs:flex-col sm:flex-col lg:flex-row xs:gap-8 gap-28 items-end">
             <div class="normal-case  opacity-80">
                 <p class="pb-7 xs:text-start text-[#F1C05B]">All of Nothing</p>
-                <div class="first-line flex xs:flex-col lg:flex-row xs:items-start lg:items-end xs:gap-5 lg:gap-14 my-5">
+                <div class="first-line flex sm360:flex-col sm360:gap-2 xs:flex-col lg:flex-row xs:items-start lg:items-end xs:gap-5 lg:gap-14 my-5">
                     <p>+ 94 099 4001</p>
                     <p>Biz haqimizda</p>
-                    <a class="bg-[#808080] px-3 py-1 rounded-[7px] xs:mx-0 mx-[55px] text-black" href="#" "><i class="fa-regular fa-envelope"></i> allornothing.uz@gmail.com</a>
+                    <a class="bg-[#808080] px-3 py-1 rounded-[7px] sm360:mx-0 xs:mx-0 mx-[55px] text-black" href="#" "><i class="fa-regular fa-envelope"></i> allornothing.uz@gmail.com</a>
                 </div>
-                <div class="second-line flex xs:flex-col lg:flex-row xs:items-start lg:items-end xs:gap-5 lg:gap-14">
+                <div class="second-line flex sm360:flex-col sm360:gap-2 xs:flex-col lg:flex-row xs:items-start lg:items-end xs:gap-5 lg:gap-14">
                     <p>+ 94 099 4001</p>
                     <p>Ish vaqti 11:00 - 23:00</p>
                     <a class="bg-[#808080] px-3 py-1 rounded-[7px] text-black" href="#"><i class="fa-solid fa-location-dot"></i> T.sh Moirobod tuman. Fidokor 10. 4a uy </a>
