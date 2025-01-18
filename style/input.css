@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    .r-header-link {
+        @apply sm360:hidden xs:hidden sm:hidden lg:inline-block;
+    }
+    .header-link-hover {
+        @apply transition duration-300 hover:text-blue-700;
+    }
+
+    .r-container {
+        @apply sm360:w-[320px] sm360:py-3 sm:py-5 xs:w-[440px] sm:w-[620px] md:w-[730px] lg:w-[900px] xl:w-[1140px] mx-auto;
+    }
+
+    .subtitle-style {
+        @apply sm360:text-[13px] sm:text-[14px] md:text-[16px] lg:text-[18px] font-medium text-[#999999];
+    }
+
+    .line-style {
+        @apply sm360:w-[76%] sm360:h-[1px] sm:w-[87%] lg:w-[89%] xl:w-[91%] inline-block bg-[#999999];
+    }
+}
